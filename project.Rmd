@@ -1,0 +1,26 @@
+---
+title: "data incubator project"
+author: "Zhang,Xiaoyu"
+date: "Monday, April 13, 2015"
+---
+
+## Name: Rental Bikes Resource Allocation Optimization
+
+## Problem
+Renting a bike in a tourist city is a fashion way of traveling nowadays. However during tourists peak, the bikes rental demand always exceeds the supply. There will be excessive bikes in one location however short of bikes in others. 
+
+Therefore to find a good way to reallocate the bikes storage is a feasible way by analyzing historical bike rental data.
+
+## Data Description
+The bikesharing data is collected and available on [capitalbikeshare](https://www.capitalbikeshare.com/trip-history-data) website.
+
+Each .csv file contains data for one quarter of the year. Within each file there are 7 columns.
+
+    Duration - Duration of trip
+    Start date – Includes start date and time
+    End date – Includes end date and time
+    Start station – Includes starting station name and number
+    End station – Includes ending station name and number
+    Bike # - Includes ID number of bike used for the trip
+    Member Type – Lists whether user was a Registered (annual or monthly) or Casual (1 to 5 day) member. NOTE: The 3-day membership replaced the 5-day during Fall '11.
+
